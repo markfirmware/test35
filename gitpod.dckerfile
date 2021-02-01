@@ -1,3 +1,3 @@
  FROM gitpod/workspace-full-vnc
  
- RUN sudo s/1920x1080/1024x768/ /use/bin/start-vnc-session.sh
+ RUN sudo sed -i s/1920x1080/1024x768/ /use/bin/start-vnc-session.sh
