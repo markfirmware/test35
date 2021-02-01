@@ -1,5 +1,5 @@
 image:
-  file: gitpod.dckerfile
+  file: gitpod.dockerfile
 
 ports:
   - port: 5900
